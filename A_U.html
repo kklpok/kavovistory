@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма реєстрації</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .registration-form {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .registration-form h2 {
+            text-align: center;
+            color: #2e2e9e;
+            font-size: 18px;
+            margin-bottom: 20px;
+            background-color: #d3d3d3;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .registration-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .registration-form input[type="text"], 
+        .registration-form input[type="email"], 
+        .registration-form input[type="password"] {
+            width: 95%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .registration-form input[type="submit"] {
+            width: 80%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10% ;
+        }
+        .registration-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="registration-form">
+    <h2>Авторизуватися</h2>
+    <form action="php\login.php" method="post">
+        <label for="login">Логін:</label>
+        <input type="text" id="login" name="login">
+
+        <label for="password">Пароль:</label>
+        <input type="text" id="password" name="password">
+
+        <input type="submit" value="Авторизація">
+    </form>
+    </div>
+
+</body>
+</html>

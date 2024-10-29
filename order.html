@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Замовлення - Кавові історії</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Кавові історії</h1>
+  </header>
+
+  <aside>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="menu.html">Меню</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="order.html">Замовлення</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <article>
+    <h2>Замовлення</h2>
+
+   <form id="orderForm" action="eeeee.php" method="post">
+      <label for="name">Ім'я:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="product">Товар:</label>
+      <select id="product" name="product" required>
+        <option value="coffee">Кава</option>
+        <option value="dessert">Десерт</option>
+        <option value="pastry">Випічка</option>
+      </select>
+
+      <label for="quantity">Кількість:</label>
+      <input type="number" id="quantity" name="quantity" min="1" required>
+
+      <button type="submit">Замовити</button>
+
+    </form>
+
+    <div id="orderDetails"></div>
+  </article>
+
+  <footer>
+    <p>Кавові історії &copy; 2024</p>
+  </footer>
+
+  <script src="order.js"></script>
+  <a href="A_U.html" button id="openModal">Увійти</button></a>
+</body>
+</html>

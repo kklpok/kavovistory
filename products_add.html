@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Додати товар</title>
+    <link rel="stylesheet" href="css\style_php.css" type="text/css">
+    <link rel="shortcut icon" href="img\4.jpg" type="image/x-icon" />
+    </head>
+<body>
+    <div class="registration-form">
+        <h2>Додати новий товар</h2>
+        <form action="php\compeate_add.php" method="post" enctype="multipart/form-data">
+            <label for="Name_P_db">Назва товару:</label>
+            <input type="text" id="Name_P_db" name="Name_P_db">
+
+            <label for="Description_db">Опис:</label>
+            <input type="text" id="Description_db" name="Description_db">
+
+            <label for="price_db">Ціна:</label>
+            <input type="text" id="price_db" name="price_db">
+
+            <label for="Number_db">Кількість:</label>
+            <input type="text" id="Number_db" name="Number_db">
+
+            <label for="img_db">Фото:</label>
+            <input type="file" id="img_db" name="img_db">
+
+            <input type="submit" value="Додати">
+        </form>

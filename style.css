@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8; /* Light gray background */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+aside {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 8px 15px;
+}
+
+nav a:hover {
+  background-color: #eee;
+}
+
+article {
+  margin-left: 25%;
+  padding: 10px;
+  min-height: 600px; /* Adjust as needed */
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.images img {
+  margin: 10px;
+  width: 200px; /* Adjust width for medium size */
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Menu Page Styles */
+.menu-categories {
+  margin-bottom: 20px;
+}
+
+.menu-categories h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.menu-categories ul {
+  padding: 0;
+}
+
+.menu-categories li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.menu-categories li:last-child {
+  margin-bottom: 0;
+}
+
+/* Contact Page Styles */
+/* Add specific styles for contact page elements here */
